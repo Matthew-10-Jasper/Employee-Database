@@ -1,0 +1,128 @@
+/* Simple Manager Portal JavaFX CSS */
+
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #f4f6f8;
+}
+
+.login-page {
+    -fx-background-color: #eef2f7;
+}
+
+.login-card {
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+    -fx-padding: 28;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 18, 0.2, 0, 4);
+}
+
+.title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-text-fill: #68707a;
+    -fx-font-size: 13px;
+}
+
+.field {
+    -fx-pref-height: 40px;
+    -fx-background-radius: 7px;
+    -fx-border-radius: 7px;
+    -fx-border-color: #d5dbe1;
+    -fx-padding: 0 10px;
+}
+
+.primary-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 7px;
+    -fx-pref-height: 40px;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.secondary-button {
+    -fx-background-color: #e9eef5;
+    -fx-text-fill: #263238;
+    -fx-background-radius: 7px;
+    -fx-pref-height: 36px;
+}
+
+.header {
+    -fx-background-color: white;
+    -fx-padding: 18 24;
+    -fx-border-color: #e1e5ea;
+    -fx-border-width: 0 0 1 0;
+}
+
+.section-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.kpi-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-padding: 15;
+    -fx-border-color: #e2e6ea;
+    -fx-border-radius: 10;
+}
+
+.kpi-label {
+    -fx-text-fill: #707780;
+}
+
+.kpi-value {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.employee-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-padding: 16;
+    -fx-border-color: #e0e5ea;
+    -fx-border-radius: 10;
+}
+
+.status-working {
+    -fx-text-fill: #16803c;
+    -fx-font-weight: bold;
+}
+
+.status-meeting {
+    -fx-text-fill: #a16207;
+    -fx-font-weight: bold;
+}
+
+.status-leave {
+    -fx-text-fill: #b91c1c;
+    -fx-font-weight: bold;
+}
+
+.status-idle {
+    -fx-text-fill: #6b7280;
+    -fx-font-weight: bold;
+}
+
+.confidential {
+    -fx-background-color: #fff7ed;
+    -fx-background-radius: 10;
+    -fx-padding: 15;
+    -fx-border-color: #fed7aa;
+    -fx-border-radius: 10;
+}
+
+.error {
+    -fx-text-fill: #c62828;
+}
+
+.info {
+    -fx-text-fill: #53606b;
+    -fx-font-size: 12px;
+}
