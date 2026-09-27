@@ -1,5 +1,3 @@
-/* Simple Manager Portal JavaFX CSS */
-
 .root {
     -fx-font-family: "Segoe UI";
     -fx-background-color: #f4f6f8;
@@ -34,6 +32,10 @@
     -fx-padding: 0 10px;
 }
 
+.field:focused {
+    -fx-border-color: #2563eb;
+}
+
 .primary-button {
     -fx-background-color: #2563eb;
     -fx-text-fill: white;
@@ -51,6 +53,10 @@
     -fx-text-fill: #263238;
     -fx-background-radius: 7px;
     -fx-pref-height: 36px;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #dce4ee;
 }
 
 .header {
@@ -75,6 +81,7 @@
 
 .kpi-label {
     -fx-text-fill: #707780;
+    -fx-font-size: 13px;
 }
 
 .kpi-value {
@@ -90,24 +97,8 @@
     -fx-border-radius: 10;
 }
 
-.status-working {
-    -fx-text-fill: #16803c;
-    -fx-font-weight: bold;
-}
-
-.status-meeting {
-    -fx-text-fill: #a16207;
-    -fx-font-weight: bold;
-}
-
-.status-leave {
-    -fx-text-fill: #b91c1c;
-    -fx-font-weight: bold;
-}
-
-.status-idle {
-    -fx-text-fill: #6b7280;
-    -fx-font-weight: bold;
+.employee-card:hover {
+    -fx-border-color: #b9c5d3;
 }
 
 .confidential {
